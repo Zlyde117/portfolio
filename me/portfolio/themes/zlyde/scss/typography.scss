@@ -1,0 +1,19 @@
+* {
+    font-family: $main-font;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+a {
+    text-decoration: none;
+    font-family: $header-font;
+    border-bottom: 2px solid $accent-color;
+}
+
+h1 a,
+.footer a {
+    text-decoration: none;
+    border-bottom: 0;
+}
